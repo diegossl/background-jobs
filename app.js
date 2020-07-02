@@ -4,7 +4,7 @@ const dotenv = require('dotenv')
 
 dotenv.config()
 
-const indexRouter = require('./routes/index')
+const usersRouter = require('./routes/users')
 
 const app = express()
 
@@ -12,6 +12,6 @@ app.use(logger('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.use('/', indexRouter)
+app.use('/', usersRouter)
 
 module.exports = app
