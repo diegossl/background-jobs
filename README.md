@@ -22,6 +22,8 @@ npm dev
 
 Para que o projeto funcione é preciso ter o Redis instalado em sua máquina ou utilizar um container, como o Docker, para executar uma instância do Redis.
 
+### Uso
+
 O sistema está pronto para ser usado na rota:
 
 [http://localhost:3000/register](http://localhost:3000/register)
