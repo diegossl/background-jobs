@@ -4,8 +4,6 @@ Processo Background ou processo de segundo plano, é um termo referentes a Siste
 
 ## Setup
 
-## Setup
-
 Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
 
 ```bash
@@ -19,6 +17,10 @@ Por fim, digite o seguinte comando no terminal para iniciar o servidor:
 ```bash
 npm dev
 ```
+
+### Redis
+
+Para que o projeto funcione é preciso ter o Redis instalado em sua máquina ou utilizar um container, como o Docker, para executar uma instância do Redis.
 
 O sistema está pronto para ser usado na rota:
 
