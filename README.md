@@ -1,18 +1,18 @@
-# Tarefas em segundo plano
+# Background tasks
 
-Processo Background ou processo de segundo plano, é um termo referentes a Sistemas Operacionais, que designa os processos que ocorrem em que não há interação com o usuário.
+Background process or background process, is a term referring to Operating Systems, which designates the processes that occur in which there is no interaction with the user.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
 npm install
 ```
 
-Em seguida, crie um arquivo chamado **.env** e copie para ele o conteúdo do arquivo **.env.exemple**, que já existe no projeto, e coloque suas credenciais. Então digite o seguinte comando no terminal:
+Then, create a file called **.env** and copy to it the contents of the file **.env.exemple**, which already exists in the project, and enter your credentials. Then type the following command in the terminal:
 
-Por fim, digite o seguinte comando no terminal para iniciar o servidor:
+Finally, type the following command in the terminal to start the server:
 
 ```bash
 npm dev
@@ -20,17 +20,17 @@ npm dev
 
 ### Redis
 
-Para que o projeto funcione é preciso ter o Redis instalado em sua máquina ou utilizar um container, como o Docker, para executar uma instância do Redis.
+For the project to work you need to have Redis installed on your machine or use a container, such as Docker, to run an instance of Redis.
 
-### Uso
+### Use
 
-O sistema está pronto para ser usado na rota:
+The system is ready to be used on the route:
 
 [http://localhost:3000/register](http://localhost:3000/register)
 
-## Exemplo de entrada de dados:
+## Example of data entry:
 
-Um objeto JSON contendo nome e email.
+A JSON object containing name and email.
  
 ```javascript
 {
@@ -39,6 +39,6 @@ Um objeto JSON contendo nome e email.
 }
 ```
 
-## Licença
+## License
 
 MIT
